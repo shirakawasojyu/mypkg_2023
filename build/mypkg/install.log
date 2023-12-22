@@ -1,7 +1,12 @@
+/home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py
 /home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py
+/home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py
+/home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg/__pycache__/listener.cpython-310.pyc
 /home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg/__pycache__/__init__.cpython-310.pyc
+/home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg/__pycache__/talker.cpython-310.pyc
 /home/shirakawa/mypkg_2023/install/mypkg/share/ament_index/resource_index/packages/mypkg
 /home/shirakawa/mypkg_2023/install/mypkg/share/mypkg/package.xml
+/home/shirakawa/mypkg_2023/install/mypkg/share/mypkg/talk_listen.launch.py
 /home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info/zip-safe
 /home/shirakawa/mypkg_2023/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info/entry_points.txt
