@@ -64,6 +64,30 @@ $ ros2 run mypkg listener
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 ```
+
+###実行例
+```
+$ ros2 launch mypkg talk_listen.launch.py
+[INFO] [launch]: All log files can be found below /home/shirakawa/.ros/log/2023-12-23-16-55-51-405332-shirakawa-sojyu-1121
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [1122]
+[INFO] [listener-2]: process started with pid [1124]
+[listener-2] [INFO] [1703318152.251958001] [listener]: Listen: 0
+[listener-2] [INFO] [1703318152.719450423] [listener]: Listen: 1
+[listener-2] [INFO] [1703318153.218974133] [listener]: Listen: 2
+[listener-2] [INFO] [1703318153.719072942] [listener]: Listen: 3
+[listener-2] [INFO] [1703318154.219194220] [listener]: Listen: 4
+[listener-2] [INFO] [1703318154.719067560] [listener]: Listen: 5
+[listener-2] [INFO] [1703318155.219078200] [listener]: Listen: 6
+[listener-2] [INFO] [1703318155.719306640] [listener]: Listen: 7
+[listener-2] [INFO] [1703318156.219102880] [listener]: Listen: 8
+[listener-2] [INFO] [1703318156.718894320] [listener]: Listen: 9
+[listener-2] [INFO] [1703318157.218923860] [listener]: Listen: 10
+[listener-2] [INFO] [1703318157.718882700] [listener]: Listen: 11
+[listener-2] [INFO] [1703318158.218477441] [listener]: Listen: 12
+[listener-2] [INFO] [1703318158.718957480] [listener]: Listen: 13
+[listener-2] [INFO] [1703318159.219156320] [listener]: Listen: 14
+```
 ## ソフトウェア
 ・Python Ver3.7 ～ 3.10
 
