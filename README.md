@@ -42,8 +42,8 @@ $ source ~/.bashrc
 
 * **talker.py**
 
-数字を0.5秒ごとにカウントし、`talker`というトピック名でトピック通信を行うノードです。
-  実行の際には以下のコマンドを入力してください。
+数字を0.5秒ごとにカウントし、`talker`というトピック名でトピック通信を行うノードです。  
+実行の際には以下のコマンドを入力してください。
 
 ```
 $ ros2 run mypkg talker
@@ -51,18 +51,18 @@ $ ros2 run mypkg talker
 
 * **listener.py**
 
-`listener`というトピック名でトピック通信を行うノードであり、前述の`talker.py`からメッセージを受信し、表示する機能があります。
-  実行の際には、端末を2つ用意し、片方の端末で`talker.py`, もう片方の端末で`listener.py`を実行してください。
-  実行コマンドは以下のようになります。
+`listener`というトピック名でトピック通信を行うノードであり、前述の`talker.py`からメッセージを受信し、表示する機能があります。  
+実行の際には、端末を2つ用意し、片方の端末で`talker.py`, もう片方の端末で`listener.py`を実行してください。  
+実行コマンドは以下のようになります。
 
 ```
 $ ros2 run mypkg listener
 ```
 * **talk_listen.launch.py**
 
-前述の`talker.py`と`listener.py`の2つのノードを同時に実行できるノードです。
-  実行する際には以下のコマンドを実行してください。
-  終了したいときは`Ctrl + C`を入力すると終了します。
+前述の`talker.py`と`listener.py`の2つのノードを同時に実行できるノードです。  
+実行する際には以下のコマンドを実行してください。  
+終了したいときは`Ctrl + C`を入力すると終了します。
 
 ```
 $ ros2 launch mypkg talk_listen.launch.py
@@ -98,7 +98,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 ubuntu22.04.2 LTS
 
 ## ライセンス
-・このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が認められます。
-  ・©2023 ShirakawaSojyu
+・このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が認められます。  
+・©2023 ShirakawaSojyu
 
 
