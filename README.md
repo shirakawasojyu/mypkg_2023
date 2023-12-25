@@ -4,14 +4,8 @@
 [![test](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml/badge.svg)](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml)
 
 ## パッケージのコピー方法について
-1. ホームディレクトリに移動して以下のコマンドを実行してください。
+ホームディレクトリに移動して以下のコマンドを実行してください。
 
-### githubアカウントを持っている人
-```
-$ git clone git@github.com:shirakawasojyu/mypkg_2023.git
-```
-
-### githubアカウントを持っていない人
 ```
 $ git clone https://github.com/shirakawasojyu/mypkg_2023.git
 ```
@@ -66,7 +60,7 @@ $ ros2 run mypkg listener
 $ ros2 launch mypkg talk_listen.launch.py
 ```
 
-###実行例
+### 実行例
 ```
 $ ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/shirakawa/.ros/log/2023-12-23-16-55-51-405332-shirakawa-sojyu-1121
@@ -90,19 +84,19 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703318159.219156320] [listener]: Listen: 14
 ```
 ## ソフトウェア
-・Python   
-・テスト済み：Ver3.7 ～ 3.10
+* Python   
+  * テスト済み：Ver3.7 ～ 3.10
 
 ## テスト環境
  * ubuntu22.04.2 LTS
 
 ## ライセンス
-・このパッケージは、下記のスライド、コードを参照し、本人の許可を得て自身の著作としたものです。  
- * https://github.com/ryuichiueda/mypkg  
- * https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson8.md  
- * https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson9.md  
+* このパッケージは、下記のスライド、コードを参照し、本人の許可を得て自身の著作としたものです。  
+  * https://github.com/ryuichiueda/mypkg  
+  * https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson8.md  
+  * https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson9.md  
 
-・このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が認められます。  
-・©2023 ShirakawaSojyu
+* このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が認められます。  
+* ©2023 ShirakawaSojyu
 
 
