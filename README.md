@@ -52,7 +52,7 @@ $ ros2 run mypkg talker
 * **listener.py**
 
 `listener`というトピック名でトピック通信を行うノードであり、前述の`talker.py`からメッセージを受信し、表示する機能があります。  
-実行の際には、端末を2つ用意し、片方の端末で`talker.py`, もう片方の端末で`listener.py`を実行してください。  
+端末を2つ用意し、片方の端末で`talker.py`, もう片方の端末で`listener.py`を実行するとtalker.pyからのメッセージが表示されます。  
 実行コマンドは以下のようになります。
 
 ```
@@ -92,12 +92,18 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703318159.219156320] [listener]: Listen: 14
 ```
 ## ソフトウェア
-・Python Ver3.7 ～ 3.10
+・Python   
+・テスト済み：Ver3.7 ～ 3.10
 
 ## テスト環境
 ubuntu22.04.2 LTS
 
 ## ライセンス
+・このパッケージは、下記のスライド、コードを参照し、本人の許可を得て自身の著作としたものです。  
+ * https://github.com/ryuichiueda/mypkg  
+ * https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson8.md  
+ * https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson9.md  
+
 ・このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が認められます。  
 ・©2023 ShirakawaSojyu
 
