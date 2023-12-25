@@ -18,12 +18,10 @@ $ git clone https://github.com/shirakawasojyu/mypkg_2023.git
 
 ## ビルド方法について
 
-1. このリポジトリをcloneしたら、
+1. このリポジトリをcloneしたら、以下のコマンドでmypkg_2023に移動してください。
 ```
 $ cd ~/mypkg_2023
 ```
-でmypkg_2023へ移動してください。
-
 
 2. 以下のコマンドを実行してください。パッケージの内容がビルドされます。
 ```
