@@ -4,7 +4,7 @@
 [![test](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml/badge.svg)](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml)
 
 ## パッケージのコピー方法について
-本パッケージは、ROS2上で運用します。ROS2環境でご使用ください。
+本パッケージは、ROS2上で運用します。ROS2環境でご使用ください。  
 ros2_wsに移動して以下のコマンドを実行してください。  
 
 ```
@@ -73,22 +73,13 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703318153.719072942] [listener]: Listen: 3
 [listener-2] [INFO] [1703318154.219194220] [listener]: Listen: 4
 [listener-2] [INFO] [1703318154.719067560] [listener]: Listen: 5
-[listener-2] [INFO] [1703318155.219078200] [listener]: Listen: 6
-[listener-2] [INFO] [1703318155.719306640] [listener]: Listen: 7
-[listener-2] [INFO] [1703318156.219102880] [listener]: Listen: 8
-[listener-2] [INFO] [1703318156.718894320] [listener]: Listen: 9
-[listener-2] [INFO] [1703318157.218923860] [listener]: Listen: 10
-[listener-2] [INFO] [1703318157.718882700] [listener]: Listen: 11
-[listener-2] [INFO] [1703318158.218477441] [listener]: Listen: 12
-[listener-2] [INFO] [1703318158.718957480] [listener]: Listen: 13
-[listener-2] [INFO] [1703318159.219156320] [listener]: Listen: 14
 ```
 ## ソフトウェア
 * Python   
   * テスト済み：Ver3.7 ～ 3.10
 
 ## テスト環境
- * ubuntu22.04.2 LTS
+ * Ubuntu22.04.2 LTS
 
 ## ライセンス
 * このパッケージは、下記のスライド、コードを参照し、本人の許可を得て自身の著作としたものです。  
