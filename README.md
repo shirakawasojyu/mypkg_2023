@@ -3,33 +3,6 @@
 
 [![test](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml/badge.svg)](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml)
 
-## パッケージのコピー方法について
-本パッケージは、ROS2上で運用します。ROS2環境でご使用ください。  
-ros2_wsに移動して以下のコマンドを実行してください。  
-
-```
-$ git clone https://github.com/shirakawasojyu/mypkg_2023.git
-```
-
-## ビルド方法について
-1. ros2_wsに移動してください。
-```
-$ cd ~/ros2_ws
-```
-
-2. 以下のコマンドを実行してください。パッケージの内容がビルドされます。
-```
-$ colcon build
-```
-
-3. 次に設定などを読み込ませます。
-```
-$ source ~/.bashrc
-```
-
-4. 以上でビルドは終了です。以下の機能についてを参照し、実行してください。。
- 
-
 ## 機能について
 
 * **talker.py**
