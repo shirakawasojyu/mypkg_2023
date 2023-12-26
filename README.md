@@ -4,17 +4,17 @@
 [![test](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml/badge.svg)](https://github.com/shirakawasojyu/mypkg_2023/actions/workflows/test.yml)
 
 ## パッケージのコピー方法について
-ホームディレクトリに移動して以下のコマンドを実行してください。
+本パッケージは、ROS2上で運用します。ROS2環境でご使用ください。
+ros2_wsに移動して以下のコマンドを実行してください。  
 
 ```
 $ git clone https://github.com/shirakawasojyu/mypkg_2023.git
 ```
 
 ## ビルド方法について
-
-1. このリポジトリをcloneしたら、以下のコマンドでmypkg_2023に移動してください。
+1. ros2_wsに移動してください。
 ```
-$ cd ~/mypkg_2023
+$ cd ~/ros2_ws
 ```
 
 2. 以下のコマンドを実行してください。パッケージの内容がビルドされます。
